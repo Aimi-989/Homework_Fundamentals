@@ -18,7 +18,7 @@ public class Tasks {
 
         String z1 = "Java";
         String z2 = "Fundamentals";
-        String z3 = (z1.substring(1,4)).concat((z2.substring(1,12)));
+        String z3 = (z1.substring(1)).concat((z2.substring(1)));
         System.out.println(z3);
 
         System.out.println("task 4");

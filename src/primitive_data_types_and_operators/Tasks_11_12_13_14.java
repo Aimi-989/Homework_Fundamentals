@@ -29,13 +29,11 @@ public class Tasks_11_12_13_14 {
         System.out.println();
 
         System.out.println("Task 14");
-        int n = 7;
-        int m = 7;
-        int h = 7;
-        int l = 2;
-        double n1 = Math.pow(n,l);
-        double m1 = Math.pow(m,l);
-        double h1 = Math.pow(h,l);
+        int n = 8;
+        int m = 6;
+        int h = 10;
+        System.out.println((n*n) + " + " + (m*m) + " = " + (h*h) + " it is right-angled");
+
 
 
     }

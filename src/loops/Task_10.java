@@ -1,26 +1,23 @@
 package loops;
 
-import java.util.Scanner;
 
 public class Task_10 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int number = scanner.nextInt(); //factorial value
 
-        //for (i=1; i<=   ; i++){
+       int fact = 1;
 
-        }
+       for (int i = 1; i <= 5; i++){
+           fact = fact * i;
+           /*
+           1 * 1 = 1;
+           1 * 2 = 2;
+           2 * 3 = 6;
+           6 * 4 = 24;
+           24 * 5 = 120;
+           */
+
+           System.out.print(fact + " ");
+       }
+
     }
-
-
-/*
-        int number = 5;
-        long fact = 1;
-        for(int i = 1; i <= number; i++)
-        {
-            fact = fact * i;
-        }
-        System.out.println("Factorial of "+number+" is: "+fact);
     }
-}
-*/

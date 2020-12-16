@@ -1,5 +1,6 @@
 package primitive_data_types_and_operators;
 
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Task_18{
@@ -31,6 +32,8 @@ public static void main(String[]args){
                 case 7:
                         System.out.println("Sunday");
                         break;
+                default:
+                        System.out.println("Error");
         }
         }
 

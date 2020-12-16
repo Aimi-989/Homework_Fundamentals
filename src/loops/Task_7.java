@@ -1,16 +1,18 @@
 package loops;
 
-import java.util.Scanner;
-
 public class Task_7 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter number: ");
-        int power = scanner.nextInt();
+        int number = 1;
+        int power = 3;
 
-        //for(i=1; i<=100; i++){
-            //System.out.println(i);
+        //while (result < 100)
+        {
+            double result = Math.pow(power, number);
+            System.out.println(result);
 
         }
+        }
     }
+
+
 

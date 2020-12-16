@@ -53,7 +53,7 @@ public class Tasks {
 
         int xx = 50;
         int yy = 3;
-        System.out.println("Result = " + (50 / 3));
+        System.out.println("Result = " + (xx / yy));
         System.out.println("remainder = " + xx % yy);
 
         System.out.println();
@@ -97,18 +97,6 @@ public class Tasks {
         System.out.println("25!=39 " + rNotEqualsl);
         System.out.println("25<39 " + (r<l));
         System.out.println("25<=39 " + (r<=l));
-
-        System.out.println();
-        System.out.println("task 10");
-        System.out.println();
-
-        int aa = 1;
-        int bb = 3;
-        int cc = 3;
-        System.out.println("The sum of the digits of an integer 133 is " + (aa+bb+cc));
-
-
-
     }
 }
 

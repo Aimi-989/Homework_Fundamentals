@@ -2,9 +2,13 @@ package primitive_data_types_and_operators;
 
 public class Task_22 {
     public static void main(String[] args) {
-        int result = ((1 * 1) + (7 * 2) + (7 * 3) + (6 * 4));
-        System.out.println("wsd(1776) =  " + result);
-        int result2 = (1 * (1 + 7) * (2 + 7) * (3 + 6) * 4);
-        System.out.println("wsd(1234) = " + result2);
+
+        int n = 1776;
+        int a = n / 10 / 100; //1
+        int b = n / 10 % 10;  //7
+        int c = n / 100 % 10; //7
+        int d = n % 10;       //6
+
+        System.out.println(a*1 + b*2 + c*3 + d*4);
     }
 }

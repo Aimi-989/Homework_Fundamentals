@@ -8,10 +8,12 @@ public class Task_7 {
         System.out.print("Enter a year: ");
         int x = scanner.nextInt();
 
-        if (x % 400 == 0 || x % 4 == 0){
+        if (x % 400 == 0){
             System.out.println("This is a leap year");
-        }else if(!(x % 100 == 0)){
-            System.out.println("This is not leap year");
+        }else if(x % 4 == 0 && x % 100 != 0){
+            System.out.println("This is a leap year");
+        }else {
+            System.out.println("This is not a leap year");
         }
     }
     }
