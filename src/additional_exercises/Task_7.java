@@ -16,6 +16,5 @@ public class Task_7 {
             System.out.println();
         }
     }
-
-    }
+}
 

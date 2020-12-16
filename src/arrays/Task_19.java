@@ -12,7 +12,6 @@ public class Task_19 {
                         number = array[j];
                         array[j] = array[i];
                         array[i] = number;
-                        //break;
                     }
                 }
             }

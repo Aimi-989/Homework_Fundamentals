@@ -1,8 +1,5 @@
 package arrays;
 
-//import java.lang.*;
-//import java.lang.Character;
-
 public class Task_23 {
     public static void main(String[] args) {
         String string = "Aa kiu, I swd skieo 2387. GH kiu: sieo?? 25.33";

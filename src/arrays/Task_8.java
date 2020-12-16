@@ -10,7 +10,9 @@ public class Task_8 {
         System.out.println(array[array.length - 2]);
     }
 }
-        /*int secondElement;
+        /*
+
+        int secondElement;
 
         for (int i = 1; i < array.length; i++){
             for (int j = i + 1; j < array.length; j++){
@@ -23,4 +25,6 @@ public class Task_8 {
         }
         System.out.println(array[array.length - 2]);
     }
-}*/
+}
+
+*/
