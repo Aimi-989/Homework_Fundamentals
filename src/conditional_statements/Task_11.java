@@ -17,7 +17,10 @@ public class Task_11 {
         if (text.endsWith("Java")) {
             System.out.println("Ends with Java");
         }
+        if (!text.contains("Java")){
+            System.out.println("No Java");
+        }
         int index = text.indexOf("Java");
         System.out.println(index);
-}
+    }
 }
