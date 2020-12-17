@@ -23,8 +23,8 @@ public class Tasks_1_2_3 {
 
         System.out.println();
         System.out.println("Task 3");
-        int m = 15;
-        int n = 20;
+        int m = 20;
+        int n = 15;
         int l = 40;
         if ((m-n) * (l-m) >= 0){
             System.out.println(m);
