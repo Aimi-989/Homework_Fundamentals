@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Task_11 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        String text = scanner.next();
+        String text = scanner.nextLine();
         System.out.print("Write the text: ");
 
         if (text.contains("Java")) {
@@ -16,11 +16,8 @@ public class Task_11 {
         }
         if (text.endsWith("Java")) {
             System.out.println("Ends with Java");
-        } else {
-            System.out.println("No Java");
         }
-    }
+        int index = text.indexOf("Java");
+        System.out.println(index);
 }
-        //String Java = "Java";
-        //int index = Java.indexOf("Java");
-        //System.out.println(index);
+}
