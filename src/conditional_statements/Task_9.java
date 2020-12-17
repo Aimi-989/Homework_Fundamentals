@@ -9,16 +9,14 @@ public class Task_9 {
         double income = scanner.nextDouble();
         double tax;
 
-        if (income > 85.528){
-            tax = 14.839 * 0.32;
-            System.out.println();
-        }else if (income < 85.528){
-            tax = 0.18;
-            System.out.println();
-        }
+        if (income >= 85.528){
+            tax = 14839.02 + ((income - 85.528) * 0.32);
+        } else {
+            tax = income * 0.18 - 556.02;
 
-        }
+        } System.out.println(tax);
     }
+}
 
 
 
