@@ -13,11 +13,13 @@ public class Task_3 {
         formatter = DateTimeFormatter.ofPattern("MM-yyyy-dd");
         System.out.println(localDate1.format(formatter));
 
-        /*
-        LocalDate [] dateArray = LocalDate1[2];
-        for (int i = 0; i< dateArray.length; i++);
-        LocalDate localDate2 = dateArray[i];
-        */
+        int[] array = new int[3];
+        array[0] = Math.abs(localDate.getYear() - localDate1.getYear());
+        array[1] = Math.abs(localDate.getMonthValue() - localDate1.getMonthValue());
+        array[2] = Math.abs(localDate.getDayOfMonth() - localDate1.getDayOfMonth());
+        for (int i : array) {
+            System.out.print(i + " ");
 
     }
+}
 }

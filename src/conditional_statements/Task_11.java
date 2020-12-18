@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class Task_11 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        String text = scanner.nextLine();
         System.out.print("Write the text: ");
+        String text = scanner.nextLine();
 
         if (text.contains("Java")) {
             System.out.println("Found Java");
@@ -19,6 +19,9 @@ public class Task_11 {
         }
         if (!text.contains("Java")){
             System.out.println("No Java");
+        }
+        if (text.equals("Java")){
+            System.out.println("Equals Java");
         }
         int index = text.indexOf("Java");
         System.out.println(index);
