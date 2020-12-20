@@ -20,9 +20,11 @@ public class Car {
     }
 
     public boolean setUsed(boolean Used) {
-        //if(mileage > 0)
-        used = true;
+        this.used = true;
         return false;
+        //if(mileage > 0)
+        //setUsed(true);
+        //return false;
     }
 
     public String getModel(){
@@ -43,10 +45,6 @@ public class Car {
 
     public void setMileage(int mileage){
         this.mileage = mileage;
-        //mileage = 78000;
-        //if(mileage > 0){
-            //setUsed(used);
-        //}
     }
 
     public int getMileage(){
