@@ -7,19 +7,20 @@ public class Car {
     private boolean used = false;
     private int mileage;
 
-    public void setModel(String audi) {
-        model = "A8";
+    public void setModel(String model) {
+        this.model = model;
     }
 
-    public void setColor(String audi) {
-        color = "red";
+    public void setColor(String color) {
+        this.color = color;
     }
 
-    public void setProductionYear(int audi) {
-        productionYear = 2018;
+    public void setProductionYear(int productionYear) {
+        this.productionYear = productionYear;
     }
 
-    public boolean setUsed(boolean audi) {
+    public boolean setUsed(boolean Used) {
+        //if(mileage > 0)
         used = true;
         return false;
     }
@@ -35,12 +36,17 @@ public class Car {
     public int getProductionYear(){
         return productionYear;
     }
+
     public boolean isUsed(){
         return used;
     }
 
-    public void setMileage(int audi){
-        mileage = 78000;
+    public void setMileage(int mileage){
+        this.mileage = mileage;
+        //mileage = 78000;
+        //if(mileage > 0){
+            //setUsed(used);
+        //}
     }
 
     public int getMileage(){
