@@ -8,13 +8,13 @@ public class CarApplication {
         audi.setColor("red");
         audi.setProductionYear(2018);
         audi.setUsed(true);
-        audi.setMileage(78000);
+        audi.setDrive(78000);
 
         System.out.println(audi.getModel());
         System.out.println(audi.getColor());
         System.out.println(audi.getProductionYear());
         System.out.println(audi.isUsed());
-        System.out.println(audi.getMileage());
+        System.out.println(audi.getDrive());
 
 
     }

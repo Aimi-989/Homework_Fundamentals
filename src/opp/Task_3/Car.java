@@ -5,7 +5,7 @@ public class Car {
     private int productionYear;
     private String color;
     private boolean used = false;
-    private int mileage;
+    private int drive;
 
     public void setModel(String model) {
         this.model = model;
@@ -19,12 +19,8 @@ public class Car {
         this.productionYear = productionYear;
     }
 
-    public boolean setUsed(boolean Used) {
+    public void setUsed(boolean Used) {
         this.used = true;
-        return false;
-        //if(mileage > 0)
-        //setUsed(true);
-        //return false;
     }
 
     public String getModel(){
@@ -43,11 +39,14 @@ public class Car {
         return used;
     }
 
-    public void setMileage(int mileage){
-        this.mileage = mileage;
+    public void setDrive(int drive){
+        this.drive = drive;
+        if(drive > 0)
+        this.setUsed(true);
+        //setUsed(true);
     }
 
-    public int getMileage(){
-        return mileage;
+    public int getDrive(){
+        return drive;
     }
 }
