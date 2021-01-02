@@ -1,4 +1,4 @@
-package enumeration.Task_1;
+package Advanced.Enum.Task_1;
 
 class Main {
     public static void main(String[] args) {

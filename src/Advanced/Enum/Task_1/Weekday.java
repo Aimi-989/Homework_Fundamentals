@@ -1,4 +1,4 @@
-package enumeration.Task_1;
+package Advanced.Enum.Task_1;
 
 enum Weekday {
     MONDAY,
@@ -18,12 +18,6 @@ enum Weekday {
     public boolean WeekDay(){
         return Holiday;
     }
-
-
-
-
-
-
 
     /*public Weekday opposite(){
 
