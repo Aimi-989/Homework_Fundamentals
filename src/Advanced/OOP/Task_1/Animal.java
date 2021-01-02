@@ -13,7 +13,5 @@ public class Animal{
         System.out.println(tomWeight);
 
 
-
-
     }
 }
