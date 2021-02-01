@@ -8,8 +8,9 @@ public enum Weekday {
     FRIDAY,
     SATURDAY,
     SUNDAY;
+    }
 
-   boolean numbers;
+   /* boolean numbers;
 
    Weekday (boolean WeekDay, boolean Holiday){
        this.numbers = WeekDay;
@@ -18,5 +19,4 @@ public enum Weekday {
    }
 }
 
-
-//}
+   */

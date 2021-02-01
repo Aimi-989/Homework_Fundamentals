@@ -8,7 +8,7 @@ class Main {
         //boolean WeekDay = Weekday.MONDAY.equals(Weekday.MONDAY);
         //boolean Holiday = Weekday.SUNDAY.equals(Weekday.SUNDAY);
 
-        System.out.println(Weekday);
+
 
 
     }
