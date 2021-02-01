@@ -1,6 +1,6 @@
 package Advanced.OOP.Task_8;
 
-public class Car implements Vehile{
+public class Car implements Vehicle{
 
     @Override
     public Integer getMaxSpeed() {

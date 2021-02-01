@@ -1,6 +1,6 @@
 package Advanced.OOP.Task_8;
 
-public interface Vehile {
+public interface Vehicle {
 
     Integer getMaxSpeed();
     Integer move();
