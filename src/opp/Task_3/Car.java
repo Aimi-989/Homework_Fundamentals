@@ -40,10 +40,10 @@ public class Car {
     }
 
     public void setDrive(int drive){
-        this.drive = drive;
-        if(drive > 0)
-        this.setUsed(true);
-        //setUsed(true);
+        if(drive > 0) {
+            this.drive = drive;
+            return;
+        }
     }
 
     public int getDrive(){

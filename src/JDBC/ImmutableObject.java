@@ -1,4 +1,4 @@
-package additional_exercises.Task_12;
+package JDBC;
 
 public class ImmutableObject {
 

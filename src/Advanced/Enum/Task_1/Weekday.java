@@ -1,6 +1,6 @@
 package Advanced.Enum.Task_1;
 
-enum Weekday {
+public enum Weekday {
     MONDAY,
     TUESDAY,
     WEDNESDAY,
@@ -9,19 +9,14 @@ enum Weekday {
     SATURDAY,
     SUNDAY;
 
-    private boolean Holiday;
+   boolean numbers;
 
-    /*private Weekday (boolean Holiday){
-        return;
-    }
+   Weekday (boolean WeekDay, boolean Holiday){
+       this.numbers = WeekDay;
+       this.numbers = Holiday;
 
-    public boolean WeekDay(){
-        return Holiday;
-    }
+   }
+}
 
-    /*public Weekday opposite(){
 
-        return opposite(Weekday);
-
-        }*/
-        }
+//}

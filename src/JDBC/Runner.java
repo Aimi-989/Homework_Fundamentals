@@ -1,4 +1,6 @@
-package additional_exercises.Task_12;
+package JDBC;
+
+import JDBC.ImmutableObject;
 
 public class Runner {
     public static void main(String[] args) {
