@@ -1,15 +1,13 @@
 package Advanced.Enum.Task_1;
 
-import java.sql.SQLOutput;
-
 class Main {
     public static void main(String[] args) {
+        try {
+            int x = 5 / 0;
+        } catch (Exception e) {
+            System.out.println("Exception is caught and");
 
-        //boolean WeekDay = Weekday.MONDAY.equals(Weekday.MONDAY);
-        //boolean Holiday = Weekday.SUNDAY.equals(Weekday.SUNDAY);
-
-
-
+        }
+    }
 
     }
-}
