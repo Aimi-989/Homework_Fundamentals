@@ -1,4 +1,4 @@
-package first_task_first_lesson;
+package FirstTaskFirstLesson;
 
 public class First_task {
     public static void main(String...args) {
