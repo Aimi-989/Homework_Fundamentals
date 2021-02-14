@@ -2,18 +2,15 @@ package Advanced.Exception.Task_8;
 
 public class Main {
 
-    public void ExceptionInLoop() {
+    public static void main(String[] args) {
 
-        int SomeException = 1;
+        int someException = 10;
 
-        while (SomeException < 1) {
-            try {
-                System.out.println("Error");
+        while (someException > -3) {
+            Number result = 1 / someException;
 
-        } catch (Exception e) {
-                System.out.println("Checked");
-            }
+            System.out.println("Result is: " + result.doubleValue() + "; current value of divisor: " + someException);
+            someException = someException - 1;
         }
     }
 }
-
